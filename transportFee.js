@@ -4,14 +4,14 @@ module.exports=function transportFee(shift){
   }
 
   function transportFee(shift){
-  if (shift== 'morning'){
+  if (shift=== 'morning'){
     return 'R20';
   }
-   else if(shift== 'afternoon')
+   else if(shift=== 'afternoon')
    {
   return 'R10';
       }
-   else if(shift== 'nightshift'){
+   else if(shift=== 'nightshift'){
      return 'free'
       }
       }
